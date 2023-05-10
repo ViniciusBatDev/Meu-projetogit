@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #5D5D7D;
+
+}
+
+.embrulho{
+    height: 100vh;
+    width: 100vw;
+    }
+
+.container-left{    
+    display: inline-block; 
+    width: 60%;
+    margin-top: 25%; 
+    padding-left: 136px;
+    }
+
+.container-right{
+    display: inline-block;
+    background:rgba(93,93,125, 0.16);
+    height: 100vh;
+    
+}
+
+h1{
+    width: 368px;
+    height: 160px;   
+    font-size: 70px;
+    line-height: 80px;
+}
+
+p{
+    margin: 15 0;
+width: 540px;
+height: 144px;
+font-weight: 400;
+font-size: 28px;
+line-height: 48px;
+opacity: 0.6;
+
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    color: #FFFFFF;
+    background: #9499EA;
+    border-radius: 30px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;   
+    cursor: pointer;
+    margin-top: 15px;
+}
+button:active{ opacity: 0.5; color:rebeccapurple;}
+button:hover{opacity: 0,8; color: violet;}
+
+a{
+    display:inline-block;
+    width: 60px;
+    height: 41px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    margin-right: 41px;
+    text-decoration: none
+
+}
+
+a:nth-child(2){
+    opacity: 0.4;
+}
+a:active{ opacity: 0.5; color:rebeccapurple;}
+a:hover{opacity: 0,8; color: violet;}
+
+img{
+  position: relative;
+  top: 25%;
+  right: 120px;
+}
+
+header{ margin: 24px 0 0 57px;}
+
+
+@media screen and (max-width: 1300px)
+{
+.container-left{
+    width: 100%; 
+    padding: 0; 
+    margin: 0;  
+}
+.container-right{
+    display: block;
+    height: auto;
+    width: 100%;
+    position: static;
+    padding: 40px;
+}
+
+img{
+    position: static;
+    width: 90%;
+}
+header{display: none;}
+
+h1{
+    font-size: 36px;
+    font-weight: 53px;
+    width: auto;
+    margin: 58px 50px 0 50px;
+    text-align: center;
+}
+p{  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    Width:auto;
+    text-align: center;
+    margin:15px 40px ;
+
+}
+button { 
+    margin: 0 auto;
+    display: block;
+}
+    
+
+}
